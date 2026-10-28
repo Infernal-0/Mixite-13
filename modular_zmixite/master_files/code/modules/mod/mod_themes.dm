@@ -5,7 +5,29 @@
 	However, calling this an \"improvised\" piece of equipment would be an insult to the manufacturer, it has been very carefully modified, likely using advanced\
 	industrial machinery. There are various actuators in the legs, and chemical synthesis units linked directly into the user's bloodstream, constantly dripping a steady\
 	supply of muscle stimulants. Some say those wearing these suits have their cruelty from the constant stimulant dosage."
-// Lore and shit was fucked up, consistency type shit
+allowed_suit_storage = list(
+		/obj/item/assembly/flash,
+		/obj/item/healthanalyzer,
+		/obj/item/melee/baton,
+		/obj/item/melee/baton/telescopic,
+		/obj/item/melee/energy/sword,
+		/obj/item/reagent_containers/cup/beaker,
+		/obj/item/reagent_containers/cup/bottle,
+		/obj/item/reagent_containers/cup/tube,
+		/obj/item/reagent_containers/dropper,
+		/obj/item/reagent_containers/hypospray,
+		/obj/item/reagent_containers/applicator/pill,
+		/obj/item/reagent_containers/syringe,
+		/obj/item/restraints/handcuffs,
+		/obj/item/sensor_device,
+		/obj/item/shield/energy,
+		/obj/item/stack/medical,
+		/obj/item/storage/bag/bio,
+		/obj/item/storage/bag/chemistry,
+		/obj/item/storage/pill_bottle,
+		/obj/item/gun
+	)
+// Lore and shit was fucked up, consistency type shit, gun added to stowable shits
 /datum/mod_theme/interdyne/nerfed
 	name = "interdyne SRT"
 	desc = "TODO"
