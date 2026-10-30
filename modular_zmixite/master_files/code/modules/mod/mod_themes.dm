@@ -30,11 +30,15 @@ allowed_suit_storage = list(
 		/obj/item/storage/pill_bottle,
 		/obj/item/gun
 	)
-// I0 Lore and shit was fucked up, consistency type shit, gun added to stowable shits
+//Inf-0 Lore and shit was fucked up, consistency type shit, gun added to stowable shits
 /datum/mod_theme/interdyne/nerfed
 	name = "interdyne SRT"
-	desc = "TODO"
-	extended_desc = "TODO"
+	desc = "An Interdyne Specialist Rescue Team suit. If you're uninsured, better take a step back. or twelve."
+	extended_desc = "The Specialist Rescue Team, or SRT, of the Interdyne Pharmaceutical Corporation, is the company's only private military branch.\
+	They are tasked with the retrieval and treatment of high-value clients and executives in life-threatening .\
+	The people wearing these suits dive boots-first into hell the moment the wrong person's heart stops.\
+	However, premium service brings premium costs, only the richest of scumbags can afford it. They are not here for you, they are here for their client. And if you get in their way,\
+	They will not hesitate to spread your brain across the steel walls, as every second matters to them."
 	armor_type = /datum/armor/mod_theme_interdyne/nerfed
 	max_heat_protection_temperature = FIRE_IMMUNITY_MAX_TEMP_PROTECT
 	complexity_max = 0
@@ -70,7 +74,7 @@ allowed_suit_storage = list(
 		/obj/item/storage/bag/chemistry,
 		/obj/item/storage/pill_bottle,
 	)
-// I0 Added gun to MOD suitslot-storage options because well, trauma team DOES shoot people if they gotta
+//Inf-0 Added gun to MOD suitslot-storage options because well, trauma team DOES shoot people if they gotta
 /datum/armor/mod_theme_interdyne/nerfed
 	melee = 5
 	bullet = 5
@@ -81,5 +85,5 @@ allowed_suit_storage = list(
 	fire = 100
 	acid = 100
 	wound = 5
-// I0 Before, it had the same armor values as the default medical MOD, which is lowk ass, so i made it fire-and-acidproof, left everything else untouched.
-// I0 so still pretty much useless in direct combat :3
+//Inf-0 Before, it had the same armor values as the default medical MOD, which is lowk ass, so i made it fire-and-acidproof, left everything else untouched.
+//Inf-0 so still pretty much useless in direct combat :3
