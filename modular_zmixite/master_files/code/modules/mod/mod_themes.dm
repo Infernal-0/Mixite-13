@@ -42,13 +42,14 @@ allowed_suit_storage = list(
 	slowdown_deployed = 0
 	inbuilt_modules = list(
 		/obj/item/mod/module/quick_carry/advanced,
-		/obj/item/mod/module/welding/nosprite
-		/obj/item/mod/module/defibrillator,
-		/obj/item/mod/module/injector,
-		/obj/item/mod/module/surgical_processor/preloaded,
-		/obj/item/mod/module/storage/large_capacity,
-		/obj/item/mod/module/tether,
-		/obj/item/mod/module/thread_ripper
+		/obj/item/mod/module/welding/nosprite/unremovable
+		/obj/item/mod/module/defibrillator/unremovable,
+		/obj/item/mod/module/injector/unremovable,
+		/obj/item/mod/module/surgical_processor/preloaded/unremovable,
+		/obj/item/mod/module/storage/large_capacity/unremovable,
+		/obj/item/mod/module/tether/unremovable,
+		/obj/item/mod/module/rad_protection/unremovable,
+		/obj/item/mod/module/thread_ripper/unremovable,
 	)
 	allowed_suit_storage = list(
 		/obj/item/assembly/flash,
